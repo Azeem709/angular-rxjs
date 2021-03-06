@@ -1,18 +1,18 @@
 # angular-rxjs
 
-<b>CheatSheet<b> : 
+<b>CheatSheet<b/> : 
 
-Observable : Observables are unicast( where each observer own it own independent execution)
+<b>Observable : </b>Observables are unicast( where each observer own it own independent execution)
 
-Subject : are special type of Observables which are multicasted(lile event emitter contains the registery of listeners).Useful when want to emit values to multiple observers.
+<b>Subject :</b> are special type of Observables which are multicasted(lile event emitter contains the registery of listeners).Useful when want to emit values to multiple observers.
 
-Special Variant of Subject - 
+<b><u>Special Variant of Subject - </b></u>
 
-BehaviourSubject : maintains/persist the last emitted value which observer can subscribe though
+<b>BehaviourSubject : </b> maintains/persist the last emitted value which observer can subscribe though
 
-ReplaySubject : maintain list of last emitted values (will have to provide the buffer how many we want it to maintain)
+<b>ReplaySubject : </b>maintain list of last emitted values (will have to provide the buffer how many we want it to maintain)
 
-AsynSubject : Its like BehaviourSubject subject it emits last value to observers but it emits only when the subject is completed ( when complete() call back is called)
+<b>AsynSubject : </b>Its like BehaviourSubject subject it emits last value to observers but it emits only when the subject is completed ( when complete() call back is called)
 
 
 
