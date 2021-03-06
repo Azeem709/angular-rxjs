@@ -2,7 +2,7 @@
 
 CheatSheet : 
 
-Observable : Observables are unicast( where each observer own it own independent execution context)
+Observable : Observables are unicast( where each observer own it own independent execution)
 
 Subject : are special type of Observables which are multicasted(lile event emitter contains the registery of listeners).Useful when want to emit values to multiple observers.
 
