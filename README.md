@@ -1,6 +1,6 @@
 # angular-rxjs
 
-CheatSheet : 
+<b>CheatSheet<b> : 
 
 Observable : Observables are unicast( where each observer own it own independent execution)
 
