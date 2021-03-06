@@ -4,7 +4,7 @@
 
 <b>Observable : </b>Observables are unicast( where each observer own it own independent execution)
 
-<b>Subject :</b> are special type of Observables which are multicasted(lile event emitter contains the registery of listeners).Useful when want to emit values to multiple observers.
+<b>Subject :</b> are special type of Observables which are multicasted(lile event emitter,it contains the registery of listeners).Useful when want to emit values to multiple observers.
 
 <b><u>Special Variant of Subject - </b></u>
 
