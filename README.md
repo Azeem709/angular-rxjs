@@ -20,6 +20,7 @@
 
 
 /**
+  Non creational Operators
  * Pipe  - operator is used combine multiple rxjs operators(other than creational) to form a data pipeline
  * it is considered best practise to use the pipe operator even though we are using single operator
  * 
