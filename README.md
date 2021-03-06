@@ -17,4 +17,14 @@
     fromObservable.subscribe(res => console.log(res)); // value1 value2 value3
 
 
+
+
+/**
+ * Pipe  - operator is used combine multiple rxjs operators(other than creational) to form a data pipeline
+ * it is considered best practise to use the pipe operator even though we are using single operator
+ * 
+ * filter - operator takes a predicate function as input and retuns filtered observable 
+ * 
+ */
+
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-27gwhd)
